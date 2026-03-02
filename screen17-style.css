@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.section2 {
+    background-image: url('fertilizer-guide.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 215px;
+    margin-top: -30px;
+
+}
+#text1 {
+    color: black;
+    font-size: 49px;
+    top: 80px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800px;
+    left: 46px;
+}
+
+
+#button1 {
+    position: relative;
+    width: 203px;
+    height: 45px;
+    background-color: #9BFA00;
+    text-align: left; padding: 5px;
+    border: 1px solid #000000;
+    left: 38px;
+    top: 30px;
+    font-size: 20px;
+}
+
+#button2 {
+    position: relative;
+    width: 84px;
+    height: 45px;
+    border: 1px solid #000000;
+    left: 96px;
+    top: 30px;
+    background-color: #547EEA;
+    font-size: 15px;
+}
+
+.section3 {
+    background-image: url('featured\ poducts.png');
+    height: 850px;
+
+    position: relative;
+    bottom: 23px;
+    overflow-x: hidden;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#centerdiv {
+    position: relative;
+    left: 30px;
+    width: 366px;
+    height: 318px;
+    top: 60px;
+}
+
+#button3 {
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+
+#button4 {
+    position: relative;
+    top: 80px;
+    left: 85px;
+}

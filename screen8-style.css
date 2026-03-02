@@ -1,0 +1,124 @@
+.section2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 215px;
+    margin-top: -45px;
+
+}
+
+#ricebag2 {
+    position: relative;
+    right: 80px;
+    top: 20px;
+    width: 550px;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#rectangle1 {
+    top: 450px;
+    width: 450px;
+    position: absolute;
+    left: -20px;
+}
+
+#text-1 {
+    color: black;
+    position: relative;
+    top: 300px;
+    font-size: 30px;
+    width: 240px;
+    left: 10px;
+}
+
+#p-text {
+    color: black;
+    position: relative;
+    top: 400px;
+    right: 350px;
+    font-size: 23px;
+    width: 323px;
+    height: 162px;
+}
+
+#rs15 {
+    position: relative;
+    top: 400px;
+    left: 20px;
+}
+
+#button1 {
+    position: relative;
+    background: #4BAF47;
+    width: 131;
+    height: 40px;
+    top: 450px;
+    left: 208px;
+    border-radius: 10px;
+
+}
+
+#button2 {
+    position: relative;
+    background: #AD9439;
+    width: 131;
+    height: 40px;
+    opacity: 1;
+    top: 450px;
+    left: 229px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 430px) {
+
+    /* approx. iPhone 14 Pro Max width */
+    .section2 {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .section3 {
+        grid-template-columns: 1fr;
+        /* stack the two columns */
+    }
+
+    #rectangle1 {
+        position: static;
+        /* remove absolute positioning */
+        width: 90%;
+        margin: 0 auto;
+        top: auto;
+        left: auto;
+    }
+
+    #text-1 {
+        top: auto;
+        left: auto;
+        width: 100%;
+        font-size: 1.2rem;
+        /* scale text */
+        text-align: center;
+    }
+     #p-text {
+        top: auto;
+        right: auto;
+        width: 100%;
+        font-size: 1rem;
+        height: auto;
+    }
+
+    #rs15 { top: auto; left: auto; }
+
+    #button1, #button2 {
+        width: 90%;
+        max-width: 200px;
+        left: auto;
+        top: auto;
+        margin: 1rem auto;
+        display: block;
+    }
+}

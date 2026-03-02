@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.section2 {
+    background-image: url('WhatsApp Image 2026-02-25 at 1.36.50 PM.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 932px;
+}
+
+#agrologo2 {
+    position: relative;
+    font-size: 100px;
+    font-weight: 100px;
+    left: 130px;
+    color: white;
+    font-size: 30px;
+    top: 130px;
+    width: 170px;
+}
+
+#para1 {
+    position: relative;
+    left: 3px;
+    color: white;
+    font-size: 20px;
+    top: 200px;
+    text-align: center;
+    line-break: strict;
+}
+
+#button1 { position: relative;
+    top: 300px;
+    background-color: rgb(42, 215, 42); left: 80px;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+#button2 {  border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 300px;
+    background-color: yellow; left: 80px;
+}
+
+/* iPhone 14 Pro Max (428px) */
+@media (max-width: 430px) {
+    .section2 {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #agrologo2 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        font-size: 24px;
+        top: 40px;
+    }
+
+    #para1 {
+        font-size: 16px;
+        top: 80px;
+        padding: 0 20px;
+        left: 0;
+    }
+
+    #button1 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px;
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        margin: 10px auto;
+    }
+
+    #button2 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px;
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+        margin: 10px auto;
+    }
+}

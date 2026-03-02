@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.section2 {
+    background-image: url('saman2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 215px;
+    margin-top: -45px;
+
+}
+#dealer { position: relative; width: 66px; top: 87px; left: 343px; height: 66px; }
+.section3 {
+    background-image: url('featured\ poducts.png');
+    height: 932px;
+    position: relative;
+    bottom: 23px;
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.sub-section { position: relative; background-color: #F8F7F0; width: 370px; height: 585px; left: 35px; top: 70px; }
+#FeaturedProducts {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    top: 30px;
+    position: relative;
+    left: 150px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-items { 
+    border: 1px solid #000000;
+    width: 310px;
+    position: relative;
+    height: 112.45px;
+    left: 32px;
+    right: 0px;
+    top: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+#organic {
+    position: relative;
+    color: #666666;
+    width: 55.17815399169922;
+    left: 114px;
+    top: 30px;
+    font-family: Outfit;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+#npk {
+    position: relative;
+    left: 114px;
+    top: 35px;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+#Rs24 {
+    position: relative;
+    left: 114px;
+    top: 35px;
+font-weight: 300;
+font-style: Bold;
+font-size: 10px;
+line-height: 124%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #000000;
+
+}
+#shop-now {   position: relative;
+    left: 200px;
+    top: 90px;  }
+    #ricebag1 { width: 70px; height: 70px;
+    position: relative; bottom: 30px; left: 20px;
+    }
+    .grid-items2 {  margin-top: 35px; border: 1px solid #000000;
+    width: 310px;
+    position: relative;
+    height: 112.45px;
+    left: 32px;
+    right: 0px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    background-repeat: no-repeat; }
+    .grid-items3 {  margin-top: 35px; border: 1px solid #000000;
+    width: 310px;
+    position: relative;
+    height: 112.45px;
+    left: 32px;
+    right: 0px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    background-repeat: no-repeat; }
+      .grid-items4 {  margin-top: 35px; border: 1px solid #000000;
+    width: 310px;
+    position: relative;
+    height: 112.45px;
+    left: 32px;
+    right: 0px;
+    top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    background-repeat: no-repeat; }

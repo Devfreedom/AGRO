@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1 {
+    background-image: url('WhatsApp Image 2026-02-25 at 1.36.50 PM.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 932px;
+}
+
+#h1-phone {
+    font-family: manrope;
+    position: relative;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    top: 140px;
+    text-align: center;
+}
+
+#downline {}
+
+#agrologo {
+    position: relative;
+    left: 97px;
+    color: white;
+    font-size: 30px;
+    top: 200px;
+    width: 250px;
+}
+
+#h2-phone { margin-top: 100px;
+    font-family: manrope;
+    position: relative;
+    left: 0px;
+    color: white;
+    font-size: 30px;
+    top: 180px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* iPhone 14 Pro Max (428px) */
+@media (max-width: 430px) {
+    .section1 {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #h1-phone {
+        font-size: 24px;
+        top: 60px;
+    }
+
+    #agrologo {
+        left: 20px;
+        width: 90%;
+        max-width: 280px;
+        font-size: 24px;
+        top: 100px;
+    }
+
+    #h2-phone {
+        font-size: 16px;
+        top: 120px;
+        margin-top: 40px;
+    }
+}
+
+

@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section2 {
+    background-image: url('WhatsApp Image 2026-02-25 at 1.36.50 PM.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 932px;
+}
+
+#agrologo2 {
+    position: relative;
+    font-size: 100px;
+    font-weight: 100px;
+    left: 130px;
+    color: white;
+    font-size: 30px;
+    top: 100px;
+    width: 180px;
+}
+
+#para1 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    color: white;
+    left: 10px;
+}
+
+#para2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    color: yellow;
+    top: 128px;
+    left: 10px;
+}
+
+#para3 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 152px;
+    left: -60px;
+}
+
+#para4 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    color: yellow;
+    top: 135px;
+    left: 85px;
+}
+
+#form1 {
+    position: relative;
+    top: 200px;
+    left: 60px;
+    width: 300px;
+    height: 61px;
+    border-radius: 32px;
+    text-align: left; padding-left: 10px;
+    font-size: 15px;
+}
+
+#button1 {
+    position: relative;
+    background-color: yellow;
+    color: black;
+    top: 300px;
+    width: 130px;
+    left: 159px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/* iPhone 14 Pro Max (428px) */
+@media (max-width: 430px) {
+    .section2 {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #agrologo2 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        font-size: 24px;
+        top: 40px;
+    }
+
+    #para1, #para2, #para3, #para4 {
+        font-size: 14px;
+        left: 0 !important;
+        top: auto;
+        padding: 0 20px;
+    }
+
+    #form1 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        top: 80px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #button1 {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        top: 120px;
+    }
+}

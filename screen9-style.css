@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section2 {
+    background-color: #A1C38D;
+    height: 932px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-items1 {
+    position: relative;
+    height: 155px;
+    width: 404px;
+    left: 13px;
+    right: 0px;
+    top: 50px;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#text-1 {
+    position: relative;
+    top: 10px;
+}
+
+#text-2 {
+    position: relative;
+    right: 160px;
+    top: 7px;
+    font-size: 50px;
+}
+
+.grid-items2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    padding: 0px;
+    height: 145px;
+    width: 380px;
+    left: 24px;
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 68px rgba(174, 175, 175, 0.17);
+    border-radius: 10px;
+    margin-top: 20px;
+    row-gap: -90%;
+}
+
+#pc-text {
+    display: grid;
+    font-size: 18px;
+    font-weight: 700px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+#pc2-text {
+    font-size: 18px;
+    font-weight: 700px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+#pcside-text {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: -10px;
+    letter-spacing: 0.2px;
+    vertical-align: middle;
+    color: #58595B;
+
+}
+
+#pcside2-text {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 15px;
+    font-family: Be Vietnam Pro;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    vertical-align: middle;
+    color: #58595B;
+}
+
+.grid-items3 {
+    position: relative;
+    height: 150px;
+    left: 5px;
+    right: 0px;
+    top: 90px;
+    background-image: url('grid-items3.svg');
+    width: 380px;
+    left: 24px;
+    height: 160px;
+}
+
+.grid-item4 {
+    background: #FFFFFF;
+    width: 376px;
+    height: 61px;
+    position: relative;
+    top: 130px;
+    border-radius: 50px;
+    left: 26px;
+
+}
+ #contact {  position: relative; left: 20px; top: 15px; }
+#image1 {
+    position: relative;
+    left: 300px;
+    width: 34px;
+    top: -12px;
+}
+ #truck { position: relative; top: 200px;left: 100px; width: 64px;}
+ #free { position: relative; top: 146px;left: 190px; font-size: 20px; }
+ #free-p { position: relative; top: 146px;left: 190px;font-size: 16px;  }
+ #button1 { background-color: #eb8e19; color: white; position: relative; top: 160px; width: 379px; height: 54px;
+  border-radius: 17.39px; left: 21px;
+}

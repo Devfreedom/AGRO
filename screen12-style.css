@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1 {
+    background-image: url('WhatsApp Image 2026-02-25 at 1.36.50 PM.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 932px;
+}
+
+#agrologo {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    top: 175px;
+    left: 31px;
+}
+
+#text-1 {
+    color: #FAFF00;
+    font-size: 59px;
+    position: relative;
+    top: 100px;
+    left: 112px;
+    font-weight: 900px;
+
+}
+
+#farmer {
+    position: relative;
+    width: 201px;
+    height: 203px;
+    top: 152px;
+    left: 117px;
+}
+
+#farmer-button {
+    position: relative;
+    background-color: #FFD29A;
+    width: 195px;
+    height: 54px;
+    top: 244px;
+    border-radius: 10px;
+    right: 90px;
+    color: ;
+  font-family: Inter;
+font-weight: 800;
+font-style: Extra Bold;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+#button1 {  position: relative;
+    background-color: #FAFF00;
+    width: 226px;
+    height: 52px;
+    top: 344px;
+    border-radius: 30px;
+    left: 100px;
+    font-size: 20px;
+    font-weight: 400;
+}

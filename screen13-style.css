@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section2 {
+    background-image: url('saman.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    bottom: 40px;
+    overflow-y: hidden;
+}
+
+.section3 {
+    background-image: url('background4.svg');
+    overflow-x: hidden;
+    overflow-y: hidden;
+     background-repeat: no-repeat;
+    height: 992px;
+    position: relative;
+    bottom: 70px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-items {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    margin-top: 20px;
+}
+
+#store {
+    position: relative;
+    top: 200px;
+}
+
+#dealer {
+    position: relative;
+    top: 134px;
+    left: 340px;
+    width: 66px;
+    height: 66px;
+}
+#storelocator { position: relative; top: 150px; }
